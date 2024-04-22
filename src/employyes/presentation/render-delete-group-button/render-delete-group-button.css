@@ -1,0 +1,11 @@
+
+
+.button--delete-group {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+}
+
+.button--delete-group span {
+    padding-right: 10px;
+}

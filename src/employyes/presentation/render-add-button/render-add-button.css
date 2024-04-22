@@ -1,0 +1,11 @@
+
+.button--add {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 210px;
+}
+
+.button--add span {
+    padding-right: 10px;
+}

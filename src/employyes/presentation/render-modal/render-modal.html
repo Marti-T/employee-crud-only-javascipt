@@ -1,0 +1,22 @@
+
+<div class="modal-dialog">
+    <form id="modalForm" class="form">
+        <h2 class="form__title">Employee</h2>
+        <input type="text" name="firstName" placeholder="Name" maxlength="100" class="form__input" />
+        <input type="text" name="lastName" placeholder="Surname" maxlength="100" class="form__input" />
+        <input type="text" id="dateOfBirth" name="dateBirth" placeholder="Date of Birth" maxlength="10" class="form__input" />
+        <input type="email" name="email" placeholder="Email" class="form__input" />
+        <select name="roleId" id="roleId" class="form__select">
+            <option value="">Select role</option>
+            <option value="Developer">Developer</option>
+            <option value="Team Leader">Team Leader</option>
+            <option value="CTO">CTO</option>
+        </select>
+        <div id="messages" class="form__messages"></div>
+        <div class="form__buttons">
+            <button type="submit" class="button button--save">
+                Save
+            </button>
+        </div>
+    </form>
+</div>

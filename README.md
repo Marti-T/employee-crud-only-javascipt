@@ -1,0 +1,28 @@
+# Employees CRUD
+
+## Node versión
+nvm use 18.12.1
+
+To start the application:
+
+1. Open the terminal and execute ```npm install``` 
+2. Execute ```npm run server ``` (Starts up the server)
+3. Open a second terminal and execute ```npm run dev```
+
+
+**- Per arrencar el projecte, podeu utilitzar l'editor que feu servir normalment, jo utilitzo el WebStorm i el Visual Studio Code.** 
+  - Obriu terminal i executar nvm use 18.12.1
+  - Executar npm install
+  - Executar npm run server (per aixecar el servidor en local)
+  - Obrir una segona terminal i executar npm run dev (per aixecar l'aplicació)
+
+**- He desenvolupat l'aplicació he uilitzat:**
+  - Vite, per la creació ràpida d'un projecte basat en javascript, que en aquest cas només l'he fet servir per la creació de la carcassa (https://vitejs.dev/).
+  - Per tenir un servidor en local he utilitzat la llibreria de node json-server (https://www.npmjs.com/package/json-server), que el que fa, és aixecar un servidor que et proporciona uns endpoints per poder atacar a un json (carpeta server/db.json) i poder fer GET, POST, PUT, PATCH, DELETE.
+  - Tota l'aplicació està escrita exclusivament amb javascript, incloent també les validacions dels camps del formulari.
+  - Com em vares demanar, a la carpeta presentation hi han els diferents components per separat, no està tot per separat, es podria separar més, però jo diria que queda clar la intenció.
+  - Pels estils he utilitzat css amb metodologia BEM, lo seu seria fer-ho tot amb sass, per exemple. 
+  - Com podràs veure he introduït un parell d'extres, un paginador i l'altre són uns mappers. Que com ja saps és per tenir un control dels noms de les variables que t'arriben per l'endpoint, que eviten errors quan són canviats per el backend.
+ 
+
+**Nota:** Si es canvia directament alguna dada del db.json, s'haurà de reiniciar el npm run server per veure els canvis.
