@@ -11,10 +11,12 @@ To start the application:
 
 
 **- Per arrencar el projecte, podeu utilitzar l'editor que feu servir normalment, jo utilitzo el WebStorm i el Visual Studio Code.** 
-  - Obriu terminal i executar nvm use 18.12.1
+  - Obriu el projecte amb programa escollit.
+  - Obriu terminal a la carpeta del projecte i executar nvm use 18.12.1 o superior
   - Executar npm install
   - Executar npm run server (per aixecar el servidor en local)
-  - Obrir una segona terminal i executar npm run dev (per aixecar l'aplicació)
+  - Obrir una segona terminal (tenir versió nvm use 18.12.1) i executar npm run dev (per aixecar l'aplicació)
+  - També teniu un Readme.md al projecte amb les instruccions.
 
 **- He desenvolupat l'aplicació he uilitzat:**
   - Vite, per la creació ràpida d'un projecte basat en javascript, que en aquest cas només l'he fet servir per la creació de la carcassa (https://vitejs.dev/).
