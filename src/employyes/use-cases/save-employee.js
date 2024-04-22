@@ -34,7 +34,6 @@ export const saveEmployee = async(employeeLike ) => {
             employeeUpdated = await createEmployee( employeeToSave );
             await employeeStore.reloadPage();
             document.querySelector('#current-page').innerText = employeeStore.getCurrentPage();
-            document.querySelector('#current-page').innerText = employeeStore.getCurrentPage();
             renderGrid();
         }
 
