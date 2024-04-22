@@ -1,7 +1,7 @@
 # Employees CRUD
 
 ## Node versión
-nvm use 18.12.1
+nvm use 18.12.1 o superior
 
 To start the application:
 
