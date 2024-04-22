@@ -129,6 +129,13 @@ export const renderModal = ( element, callback ) => {
             showMessage('Enter a valid email address.');
         }
 
+        const roleId = formData.get('roleId');
+        console.log(roleId);
+        if (roleId === '') {
+            isValid = false;
+            showMessage('The Role is required.');
+        }
+
         if (!isValid) return;
 
         await callback(employeeLike);
