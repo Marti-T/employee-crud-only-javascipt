@@ -22,9 +22,5 @@ To start the application:
   - Vite, per la creació ràpida d'un projecte basat en javascript, que en aquest cas només l'he fet servir per la creació de la carcassa (https://vitejs.dev/).
   - Per tenir un servidor en local he utilitzat la llibreria de node json-server (https://www.npmjs.com/package/json-server), que el que fa, és aixecar un servidor que et proporciona uns endpoints per poder atacar a un json (carpeta server/db.json) i poder fer GET, POST, PUT, PATCH, DELETE.
   - Tota l'aplicació està escrita exclusivament amb javascript, incloent també les validacions dels camps del formulari.
-  - Com em vares demanar, a la carpeta presentation hi han els diferents components per separat, no està tot per separat, es podria separar més, però jo diria que queda clar la intenció.
-  - Pels estils he utilitzat css amb metodologia BEM, lo seu seria fer-ho tot amb sass, per exemple. 
-  - Com podràs veure he introduït un parell d'extres, un paginador i l'altre són uns mappers. Que com ja saps és per tenir un control dels noms de les variables que t'arriben per l'endpoint, que eviten errors quan són canviats per el backend.
  
-
 **Nota:** Si es canvia directament alguna dada del db.json, s'haurà de reiniciar el npm run server per veure els canvis.
